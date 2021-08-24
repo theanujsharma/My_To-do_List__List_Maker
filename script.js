@@ -1,11 +1,12 @@
 const text=document.querySelector("#text")
 const push=document.querySelector("#push")
-const pop=document.querySelector("#shift")
-const shift=document.querySelector("#unshift")
-const unshift=document.querySelector("#pop")
+// const pop=document.querySelector("#shift")
+const shift=document.querySelector("#shift")
+//const unshift=document.querySelector("#pop")
+//you wrote wrong id name here 
+const unshift = document.querySelector("#unshift");
 const list=document.querySelector("#list")
 const listItems = []
-let index = 0
 function my(){
     list.innerHTML = "";
     text.value = ""
